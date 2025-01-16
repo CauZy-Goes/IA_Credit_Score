@@ -1,13 +1,13 @@
 # IA para Classificação de Score de Crédito
 
-Este projeto envolve o desenvolvimento e treinamento de modelos de machine learning para classificar o score de crédito dos clientes de um banco como **"poor" (ruim), "good" (bom) ou "standard" (padrão)**. O projeto utiliza a biblioteca **scikit-learn** para o treinamento e avaliação dos modelos, e **NumPy** para o tratamento dos dados. O conjunto de dados utilizado contém informações de clientes, com etapas de pré-processamento para manipulação de dados categóricos e divisão em conjuntos de treino e teste.
+Este projeto envolve o desenvolvimento e treinamento de modelos de machine learning para classificar o score de crédito dos clientes de um banco como **"poor" (ruim), "good" (bom) ou "standard" (padrão)**. O projeto utiliza a biblioteca **scikit-learn** para o treinamento e avaliação dos modelos, e **pandas** para o tratamento dos dados. O conjunto de dados utilizado contém informações de clientes, com etapas de pré-processamento para manipulação de dados categóricos e divisão em conjuntos de treino e teste.
 
 ## Funcionalidades
 
 - **Pré-processamento de Dados**:
   - Tratamento de dados categóricos usando `LabelEncoder` para converter colunas do tipo "object" em valores inteiros.
   - Divisão do conjunto de dados em treino e teste com `test_size=0.3`.
-  - Uso do `NumPy` para manipulação eficiente dos dados.
+  - Uso do `pandas` para manipulação eficiente dos dados.
 
 - **Modelos de Machine Learning**:
   - **Random Forest Classifier**:
